@@ -1,0 +1,45 @@
+html,body 
+{
+  background-color: #e2f8d7;
+}
+#line 
+{
+  color: #ffffff;
+  font-size: 30px;
+}
+.footer
+{
+  background-color: #228b22;
+  color: #ffffff;
+}
+table 
+{
+  border: 1px solid #228b22;
+  background: #ffff;
+}
+th 
+{
+  text-align: center;
+  border: 1px solid #A9E2CC;
+}
+td 
+{
+  text-align: center;
+  font-size: 0.8em;
+  border: 1px solid #A9E2CC;
+}
+tr.even 
+{
+  background: #e2f8d7;
+}
+.menu li
+{
+  list-style-type: none;
+}
+@media screen and (min-width: 1224px){
+  #line 
+{
+  color: #ffffff;
+  font-size: 60px;
+}
+}
