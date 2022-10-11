@@ -10,7 +10,7 @@ function poz(){
         x[0]=Number.parseInt(x[0]);
         y[0]=Number.parseInt(y[0]);
         var p=x[0].value*y[0].value;
-        alert("Ваша стоимость заказа: "+p+" руб.");
+        resalt.innerHTML="Стоимость вашего заказа: " + p + " руб.";
     }  
 }
 window.addEventListener('DOMContentLoaded', function (event) {
